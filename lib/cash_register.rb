@@ -30,7 +30,7 @@ end
 
 
 def void_last_transaction
-  @items.pop()
+  @items.delete_at(-1)
 end 
 
 end #end of class CashRegister

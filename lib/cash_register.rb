@@ -31,7 +31,7 @@ end
 
 
 def void_last_transaction
-  self.total = self.total = self.scanTotal
+  self.total = self.total - self.scanTotal
 end 
 
 end #end of class CashRegister

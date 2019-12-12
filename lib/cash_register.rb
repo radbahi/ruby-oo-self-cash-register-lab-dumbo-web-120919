@@ -13,7 +13,7 @@ def add_item(name, price, quantity = 1)
       quantity.times do 
         self.items << name
       end
-      scanTotal = price * quantity
+      self.scanTotal = price * quantity
 end 
   
 def apply_discount
